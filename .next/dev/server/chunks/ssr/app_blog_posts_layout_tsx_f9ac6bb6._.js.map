@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Desktop/Archive/app/blog/posts/layout.tsx"],"sourcesContent":["import Link from \"next/link\";\nimport React from \"react\";\n\ninterface layoutProps {\n\tchildren: React.ReactNode;\n}\n\nconst layout: React.FC<layoutProps> = ({ children }) => {\n\treturn (\n\t\t<div>\n\t\t\t<Link href=\"/blog/posts/new\">create new post</Link>\n\t\t\t<br />\n\t\t\t{children}\n\t\t</div>\n\t);\n};\n\nexport default layout;\n"],"names":[],"mappings":";;;;;AAAA;;;AAOA,MAAM,SAAgC,CAAC,EAAE,QAAQ,EAAE;IAClD,qBACC,8OAAC;;0BACA,8OAAC,0LAAI;gBAAC,MAAK;0BAAkB;;;;;;0BAC7B,8OAAC;;;;;YACA;;;;;;;AAGJ;uCAEe"}}]
+}

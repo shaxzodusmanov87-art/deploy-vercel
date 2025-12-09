@@ -1,0 +1,51 @@
+[00:00:01.702] Server  LOG      ✓ Ready in 1271ms
+[00:00:05.484] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.628] Server  LOG     prisma:query "SELECT \"public\".\"Session\".\"id\", \"public\".\"Session\".\"sessionToken\", \"public\".\"Session\".\"userId\", \"public\".\"Session\".\"expires\" FROM \"public\".\"Session\" WHERE (\"public\".\"Session\".\"sessionToken\" = $1 AND 1=1) LIMIT $2 OFFSET $3"
+[00:00:08.949] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"name\", \"public\".\"User\".\"email\", \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\" FROM \"public\".\"User\" WHERE \"public\".\"User\".\"id\" IN ($1) OFFSET $2"
+[00:00:09.266] Server  LOG     prisma:query "UPDATE \"public\".\"Session\" SET \"sessionToken\" = $1, \"expires\" = $2 WHERE (\"public\".\"Session\".\"sessionToken\" = $3 AND 1=1) RETURNING \"public\".\"Session\".\"id\", \"public\".\"Session\".\"sessionToken\", \"public\".\"Session\".\"userId\", \"public\".\"Session\".\"expires\""
+[00:00:09.268] Server  LOG     cmitujtpz0000uvwcsckolm0n
+[00:00:09.269] Server  LOG     Shakhzod Usmanov 2
+[00:00:19.292] Server  LOG     prisma:query "SELECT \"public\".\"Account\".\"id\", \"public\".\"Account\".\"userId\" FROM \"public\".\"Account\" WHERE ((\"public\".\"Account\".\"provider\" = $1 AND \"public\".\"Account\".\"providerAccountId\" = $2) AND 1=1) LIMIT $3 OFFSET $4"
+[00:00:19.440] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"name\", \"public\".\"User\".\"email\", \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\" FROM \"public\".\"User\" WHERE \"public\".\"User\".\"id\" IN ($1) OFFSET $2"
+[00:00:19.762] Server  LOG     prisma:query "SELECT \"public\".\"Session\".\"id\", \"public\".\"Session\".\"sessionToken\", \"public\".\"Session\".\"userId\", \"public\".\"Session\".\"expires\" FROM \"public\".\"Session\" WHERE (\"public\".\"Session\".\"sessionToken\" = $1 AND 1=1) LIMIT $2 OFFSET $3"
+[00:00:19.941] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"name\", \"public\".\"User\".\"email\", \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\" FROM \"public\".\"User\" WHERE \"public\".\"User\".\"id\" IN ($1) OFFSET $2"
+[00:00:20.080] Server  LOG     prisma:query "SELECT \"public\".\"Account\".\"id\", \"public\".\"Account\".\"userId\" FROM \"public\".\"Account\" WHERE ((\"public\".\"Account\".\"provider\" = $1 AND \"public\".\"Account\".\"providerAccountId\" = $2) AND 1=1) LIMIT $3 OFFSET $4"
+[00:00:20.205] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"name\", \"public\".\"User\".\"email\", \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\" FROM \"public\".\"User\" WHERE \"public\".\"User\".\"id\" IN ($1) OFFSET $2"
+[00:00:20.384] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:20.621] Server  LOG     prisma:query "SELECT \"public\".\"Session\".\"id\", \"public\".\"Session\".\"sessionToken\", \"public\".\"Session\".\"userId\", \"public\".\"Session\".\"expires\" FROM \"public\".\"Session\" WHERE (\"public\".\"Session\".\"sessionToken\" = $1 AND 1=1) LIMIT $2 OFFSET $3"
+[00:00:20.790] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"name\", \"public\".\"User\".\"email\", \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\" FROM \"public\".\"User\" WHERE \"public\".\"User\".\"id\" IN ($1) OFFSET $2"
+[00:00:20.793] Server  LOG     cmitujtpz0000uvwcsckolm0n
+[00:00:20.794] Server  LOG     Shakhzod Usmanov 2
+[00:00:26.330] Server  LOG     prisma:query "SELECT 1"
+[00:00:26.473] Server  LOG     prisma:query "SELECT \"public\".\"Session\".\"id\", \"public\".\"Session\".\"sessionToken\", \"public\".\"Session\".\"userId\", \"public\".\"Session\".\"expires\" FROM \"public\".\"Session\" WHERE (\"public\".\"Session\".\"sessionToken\" = $1 AND 1=1) LIMIT $2 OFFSET $3"
+[00:00:26.630] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"name\", \"public\".\"User\".\"email\", \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\" FROM \"public\".\"User\" WHERE \"public\".\"User\".\"id\" IN ($1) OFFSET $2"
+[00:00:26.632] Server  LOG     cmitujtpz0000uvwcsckolm0n
+[00:00:26.633] Server  LOG     Shakhzod Usmanov 2
+[00:00:26.992] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"name\", \"public\".\"User\".\"email\", \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\" FROM \"public\".\"User\" WHERE (\"public\".\"User\".\"email\" = $1 AND 1=1) LIMIT $2 OFFSET $3"
+[00:00:27.394] Server  LOG     prisma:query "SELECT \"public\".\"Post\".\"id\", \"public\".\"Post\".\"title\", \"public\".\"Post\".\"content\", \"public\".\"Post\".\"published\", \"public\".\"Post\".\"authorId\" FROM \"public\".\"Post\" WHERE \"public\".\"Post\".\"authorId\" IN ($1) OFFSET $2"
+[00:00:37.403] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:37.628] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"name\", \"public\".\"User\".\"email\", \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\" FROM \"public\".\"User\" WHERE 1=1 OFFSET $1"
+[00:00:38.795] Server  LOG     prisma:query "SELECT \"public\".\"Session\".\"id\", \"public\".\"Session\".\"sessionToken\", \"public\".\"Session\".\"userId\", \"public\".\"Session\".\"expires\" FROM \"public\".\"Session\" WHERE (\"public\".\"Session\".\"sessionToken\" = $1 AND 1=1) LIMIT $2 OFFSET $3"
+[00:00:39.098] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"name\", \"public\".\"User\".\"email\", \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\" FROM \"public\".\"User\" WHERE \"public\".\"User\".\"id\" IN ($1) OFFSET $2"
+[00:00:39.099] Server  LOG     cmitujtpz0000uvwcsckolm0n
+[00:00:39.101] Server  LOG     Shakhzod Usmanov 2
+[00:00:42.061] Server  LOG     prisma:query "SELECT \"public\".\"Post\".\"id\", \"public\".\"Post\".\"title\", \"public\".\"Post\".\"content\", \"public\".\"Post\".\"published\", \"public\".\"Post\".\"authorId\" FROM \"public\".\"Post\" WHERE 1=1 OFFSET $1"
+[00:00:42.194] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"name\", \"public\".\"User\".\"email\", \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\" FROM \"public\".\"User\" WHERE \"public\".\"User\".\"id\" IN ($1) OFFSET $2"
+[00:01:08.995] Server  LOG     prisma:query "SELECT 1"
+[00:01:09.151] Server  LOG     prisma:query "SELECT \"public\".\"Session\".\"id\", \"public\".\"Session\".\"sessionToken\", \"public\".\"Session\".\"userId\", \"public\".\"Session\".\"expires\" FROM \"public\".\"Session\" WHERE (\"public\".\"Session\".\"sessionToken\" = $1 AND 1=1) LIMIT $2 OFFSET $3"
+[00:01:09.298] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"name\", \"public\".\"User\".\"email\", \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\" FROM \"public\".\"User\" WHERE \"public\".\"User\".\"id\" IN ($1) OFFSET $2"
+[00:01:09.299] Server  LOG     cmitujtpz0000uvwcsckolm0n
+[00:01:09.299] Server  LOG     Shakhzod Usmanov 2
+[00:02:56.443] Server  LOG     prisma:query "SELECT 1"
+[00:02:56.581] Server  LOG     prisma:query "SELECT \"public\".\"Session\".\"id\", \"public\".\"Session\".\"sessionToken\", \"public\".\"Session\".\"userId\", \"public\".\"Session\".\"expires\" FROM \"public\".\"Session\" WHERE (\"public\".\"Session\".\"sessionToken\" = $1 AND 1=1) LIMIT $2 OFFSET $3"
+[00:02:56.704] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"name\", \"public\".\"User\".\"email\", \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\" FROM \"public\".\"User\" WHERE \"public\".\"User\".\"id\" IN ($1) OFFSET $2"
+[00:02:56.705] Server  LOG     cmitujtpz0000uvwcsckolm0n
+[00:02:56.705] Server  LOG     Shakhzod Usmanov 2
+[00:18:59.975] Server  LOG     prisma:query "SELECT \"public\".\"Session\".\"id\", \"public\".\"Session\".\"sessionToken\", \"public\".\"Session\".\"userId\", \"public\".\"Session\".\"expires\" FROM \"public\".\"Session\" WHERE (\"public\".\"Session\".\"sessionToken\" = $1 AND 1=1) LIMIT $2 OFFSET $3"
+[00:19:00.218] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"name\", \"public\".\"User\".\"email\", \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\" FROM \"public\".\"User\" WHERE \"public\".\"User\".\"id\" IN ($1) OFFSET $2"
+[00:19:00.222] Server  LOG     cmitujtpz0000uvwcsckolm0n
+[00:19:00.223] Server  LOG     Shakhzod Usmanov 2
+[00:19:04.990] Server  LOG     prisma:query "SELECT \"public\".\"Session\".\"id\", \"public\".\"Session\".\"sessionToken\", \"public\".\"Session\".\"userId\", \"public\".\"Session\".\"expires\" FROM \"public\".\"Session\" WHERE (\"public\".\"Session\".\"sessionToken\" = $1 AND 1=1) LIMIT $2 OFFSET $3"
+[00:19:05.156] Server  LOG     prisma:query "SELECT \"public\".\"User\".\"id\", \"public\".\"User\".\"name\", \"public\".\"User\".\"email\", \"public\".\"User\".\"emailVerified\", \"public\".\"User\".\"image\" FROM \"public\".\"User\" WHERE \"public\".\"User\".\"id\" IN ($1) OFFSET $2"
+[00:19:05.156] Server  LOG     cmitujtpz0000uvwcsckolm0n
+[00:19:05.157] Server  LOG     Shakhzod Usmanov 2
