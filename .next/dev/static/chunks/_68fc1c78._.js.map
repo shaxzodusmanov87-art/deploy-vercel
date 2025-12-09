@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Desktop/Archive/app/error.tsx"],"sourcesContent":["\"use client\";\nimport { useRouter } from \"next/navigation\";\nimport { useEffect } from \"react\";\n\nexport default function Error({\n\terror,\n\treset,\n}: {\n\terror: Error & { digest?: string };\n\treset: () => void;\n}) {\n\tconst router = useRouter();\n\n\tuseEffect(() => {\n\t\t// Log the error to an error reporting service\n\t\tconsole.error(error);\n\t}, [error]);\n\n\treturn (\n\t\t<div>\n\t\t\t<h2>Something went wrong!</h2>\n\t\t\t<button\n\t\t\t\tonClick={() => {\n\t\t\t\t\trouter.push(\"/users\");\n\t\t\t\t}}\n\t\t\t>\n\t\t\t\tTry again\n\t\t\t</button>\n\t\t</div>\n\t);\n}\n"],"names":[],"mappings":";;;;;AACA;AACA;;;AAFA;;;AAIe,SAAS,MAAM,EAC7B,KAAK,EACL,KAAK,EAIL;;IACA,MAAM,SAAS,IAAA,kJAAS;IAExB,IAAA,0KAAS;2BAAC;YACT,8CAA8C;YAC9C,QAAQ,KAAK,CAAC;QACf;0BAAG;QAAC;KAAM;IAEV,qBACC,6LAAC;;0BACA,6LAAC;0BAAG;;;;;;0BACJ,6LAAC;gBACA,SAAS;oBACR,OAAO,IAAI,CAAC;gBACb;0BACA;;;;;;;;;;;;AAKJ;GA1BwB;;QAOR,kJAAS;;;KAPD"}},
-    {"offset": {"line": 67, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Desktop/Archive/node_modules/next/navigation.js"],"sourcesContent":["module.exports = require('./dist/client/components/navigation')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0]}}]
-}

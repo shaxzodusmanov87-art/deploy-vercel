@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Desktop/Archive/components/Actions.tsx"],"sourcesContent":["\"use client\";\nimport React, { useState } from \"react\";\n\ninterface ActionsProps {}\n\nconst Actions: React.FC<ActionsProps> = () => {\n\tconst [text, setText] = useState(\"hola amigo\");\n\treturn (\n\t\t<div>\n\t\t\t<button onClick={() => setText(\"new text\")}>change text</button>\n\t\t\t<h1 className=\"text-white\">{text}</h1>\n\t\t</div>\n\t);\n};\n\nexport default Actions;\n"],"names":[],"mappings":";;;;;AACA;AADA;;;AAKA,MAAM,UAAkC;IACvC,MAAM,CAAC,MAAM,QAAQ,GAAG,IAAA,iNAAQ,EAAC;IACjC,qBACC,8OAAC;;0BACA,8OAAC;gBAAO,SAAS,IAAM,QAAQ;0BAAa;;;;;;0BAC5C,8OAAC;gBAAG,WAAU;0BAAc;;;;;;;;;;;;AAG/B;uCAEe"}}]
-}

@@ -1,3 +1,0 @@
-module.exports=[38750,a=>{"use strict";var b=a.i(87924),c=a.i(38246),d=a.i(72131);a.s(["default",0,({user:a})=>{let[e,f]=(0,d.useState)(!1);return(0,b.jsxs)("li",{className:"flex flex-col items-start gap-2 border w-fit m-5 p-5",children:[(0,b.jsx)(c.default,{href:`/users/${a.id}`,children:"Open profile page"}),(0,b.jsx)("span",{onClick:()=>f(!e),className:`${e&&"line-through"} text-white text-xl`,children:a.name})]},a.id)}])}];
-
-//# sourceMappingURL=app_users_User_tsx_56a83d1b._.js.map
