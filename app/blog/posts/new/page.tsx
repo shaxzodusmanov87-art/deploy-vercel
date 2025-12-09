@@ -6,12 +6,27 @@ import { redirect } from "next/navigation";
 
 import PostForm from "@/components/PostForm";
 
+interface SessionUser {
+  id: string;
+  name?: string | null;
+  email?: string | null;
+  image?: string | null;
+}
+
+interface Session {
+  user: SessionUser;
+}
+
 export default async function NewPost() {
-  const session = await getServerSession(authOptions);
+  const session = (await getServerSession(authOptions)) as Session | null;
+
   if (!session) return "Sign in to create a post";
 
   async function createPost(formData: FormData) {
     "use server";
+
+    const session = (await getServerSession(authOptions)) as Session | null;
+    if (!session) throw new Error("Not authenticated");
 
     const title = formData.get("title") as string;
     const content = formData.get("content") as string;
@@ -20,7 +35,7 @@ export default async function NewPost() {
       data: {
         title,
         content,
-        authorId: session.user.id!,
+        authorId: session.user.id, 
       },
     });
 

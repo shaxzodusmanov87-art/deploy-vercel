@@ -4,8 +4,19 @@ import prisma from "@/lib/prisma";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 
+interface SessionUser {
+  id: string;
+  name?: string | null;
+  email?: string | null;
+  image?: string | null;
+}
+
+interface Session {
+  user: SessionUser;
+}
+
 export default async function EditProfile() {
-  const session = await getServerSession(authOptions);
+  const session = await getServerSession(authOptions) as Session | null;
   if (!session) return "Not allowed";
 
   const userId = session.user.id;

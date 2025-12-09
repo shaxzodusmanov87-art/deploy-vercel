@@ -1,0 +1,20 @@
+{
+  "node": {
+    "603785b0aad012354454486eb2cae6ab0b6858f7ca": {
+      "workers": {
+        "app/profile/edit/page": {
+          "moduleId": 38548,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "app/profile/edit/page.tsx"
+        }
+      },
+      "layer": {
+        "app/profile/edit/page": "rsc"
+      },
+      "exportedName": "$$RSC_SERVER_ACTION_0",
+      "filename": "app/profile/edit/page.tsx"
+    }
+  },
+  "edge": {}
+}

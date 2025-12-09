@@ -1,0 +1,20 @@
+{
+  "node": {
+    "4058cb1550a73c5e01ff460fbe0cfc99195988d508": {
+      "workers": {
+        "app/blog/posts/new/page": {
+          "moduleId": 3062,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "app/blog/posts/new/page.tsx"
+        }
+      },
+      "layer": {
+        "app/blog/posts/new/page": "rsc"
+      },
+      "exportedName": "$$RSC_SERVER_ACTION_0",
+      "filename": "app/blog/posts/new/page.tsx"
+    }
+  },
+  "edge": {}
+}
